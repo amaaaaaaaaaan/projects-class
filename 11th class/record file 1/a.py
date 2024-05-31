@@ -1,9 +1,0 @@
-p=5/2
-q=p*4
-r=p+q
-p+=p+q+r
-print(p)
-print(q)
-print(r)
-q-=p+q*r
-print(p,q,r)
