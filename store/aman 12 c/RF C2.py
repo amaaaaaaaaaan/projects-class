@@ -29,7 +29,7 @@ def rn_del():
     db.commit()
 
 def display():
-    cu.excecute('select * from student')
+    cu.execute('select * from student')
     x=cu.fetchall()
     for i in x:
         print(i)
