@@ -33,5 +33,25 @@ def f4():
     e=int(input("Enter employee number: "))
     cu.execute(f"delete from employee where empno={e}")
     db.commit()
-f4()
-    
+
+while True:
+    print('''
+1.ACCEPT new employee details and display all records. 
+2.DISPLAY employee details by employee number; display appropriate message if employee number not matched. 
+3.UPDATE the Salary by employee number.  
+4.DELETE Record by employee number.
+''')
+    ch=int(input("Enter choice: "))
+    if ch==1:
+        f1()
+    elif ch==2:
+        f2()
+    elif ch==3:
+        f3()
+    elif ch==4:
+        f4()
+    else:
+        print("Invalid choice")
+        break
+
+
