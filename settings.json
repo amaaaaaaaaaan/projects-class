@@ -1,0 +1,6 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
+    "python.pythonPath": "C:\\Users\\amans\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "workbench.iconTheme": "vs-seti"
+}
