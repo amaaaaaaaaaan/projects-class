@@ -17,7 +17,7 @@ while True:
     ite=cu.fetchone()
     print(ite)
     qt=int(input("Enter quantity: "))
-    cu.execute(f"update fafo set quantity=quantity+12 where ItemId={ch}")
+    cu.execute(f"update fafo set quantity=quantity-{qt} where ItemId={ch}")
     db.commit()
     tot+=qt*ite[2]
 
